@@ -1,27 +1,17 @@
-# Frontend Mentor - QR code component solution
+# QR-код
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Решение для фронтенд-челленджа [«QR-код»](https://www.twep.ru/challenges/newbee/qr-code/) на twep.
 
-## Overview
-
-### Preview
+## Скриншот
 
 ![](./preview.jpg)
 
-<!-- ### Links
+## Стек
 
-- Solution URL: [ URL here](https://your-solution-url.com)
-- Live Site URL: [ URL here](https://your-live-site-url.com) -->
+- Семантическая верстка
+- CSS, Flexbox
+- Мобайл-ферст
 
-## My process
+## Знания
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-
-### What I learned
-
-In previous versions of HTML, it was not recommended to place block-level elements (such as `<h1>`) inside inline elements like `<a>`. However, with the introduction of HTML5, it became possible to wrap block-level elements within `<a>` tags.
+В предыдущих версиях HTML не рекомендовалось размещать блочные элементы (например, `<h1>`) внутри строчных элементов, таких как `<a>`. Однако с появлением HTML5 стало возможным оборачивать блочные элементы в теги `<a>`.
