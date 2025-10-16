@@ -1,24 +1,13 @@
-# Frontend Mentor - Blog preview card solution
+# Карточка блога
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Решение для фронтенд-челленджа «Карточка блога» на twep.
 
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
-
-### Screenshot
+## Скриншот
 
 ![](./preview.jpg)
 
-## My process
+## Стек
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
+- Семантическая верстка
+- CSS, Flexbox
+- Мобайл-ферст
