@@ -1,0 +1,180 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #292929;
+  --color-gray: #555761;
+
+  --font-family: 'Manrope', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-black);
+  outline-offset: 2px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 1.5rem;
+  font-family: var(--font-family);
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.links__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 21.5rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.links__about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.links__about h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.links__about p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.links__social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.links__urls {
+  display: flex;
+  flex-direction: column;
+  width: 21.5rem;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.links__title {
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-gray);
+}
+
+.links__tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.links__tabs li {
+  position: relative;
+  width: 100%;
+  border: 1px solid var(--color-black);
+  border-radius: 3rem;
+  padding: 1rem;
+  padding-left: 3.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.links__tabs li:hover {
+  box-shadow: 4px 4px 0 0 #292929;
+  background: var(--color-white);
+}
+
+.links__tabs a::before {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+#website::before {
+  content: url('./assets/website-icon.png');
+}
+
+#wikipedia::before {
+  content: url('./assets/wiki-icon.png');
+}
+
+#pyramid::before {
+  content: url('./assets/pyramid-icon.png');
+}
+
+#appleMusic::before {
+  content: url('./assets/apple-icon.png');
+}
+
+.links__tabs a {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-black);
+}
+
+.links__footer {
+  max-width: 21.5rem;
+  font-weight: 500;
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+.links__footer span {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .links__header {
+    max-width: 38rem;
+  }
+
+  .links__about p {
+    font-size: 1.125rem;
+  }
+
+  .links__urls {
+    width: 38rem;
+  }
+
+  .links__footer {
+    max-width: 38rem;
+  }
+}
