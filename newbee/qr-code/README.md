@@ -1,6 +1,6 @@
 # QR-код
 
-Решение для фронтенд-челленджа [«QR-код»](https://www.twep.ru/challenges/newbee/qr-code/) на twep.
+Решение для фронтенд-челленджа [«QR-код»](https://www.twep.ru/challenges/newbee/qr-code/) на twep.ru
 
 ## Скриншот
 

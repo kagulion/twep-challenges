@@ -1,6 +1,6 @@
 # Карточка блога
 
-Решение для фронтенд-челленджа [«Карточка блога»](https://www.twep.ru/challenges/newbee/blog-card/) на twep.
+Решение для фронтенд-челленджа [«Карточка блога»](https://www.twep.ru/challenges/newbee/blog-card/) на twep.ru
 
 ## Скриншот
 
